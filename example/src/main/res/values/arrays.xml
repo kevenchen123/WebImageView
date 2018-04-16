@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="type">
+        <item>centerInside</item>
+        <item>centerCrop(scroll &amp; scale)</item>
+        <item>center(scroll &amp; scale)</item>
+        <item>fitXY(scale)</item>
+        <item>aspectRatio(scroll &amp; scale)</item>
+        <item>local image(raw)</item>
+        <item>local image(drawable)</item>
+    </string-array>
+</resources>
