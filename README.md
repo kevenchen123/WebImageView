@@ -1,6 +1,6 @@
 # WebImageView
 
-version 1.0.0
+version 1.0.1
 
 Use Webview to show image, reduce memory usage on java heap for Android.
 
