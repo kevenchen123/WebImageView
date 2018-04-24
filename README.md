@@ -21,9 +21,15 @@ allprojects {
   }
 }
 ```
+Add compile in project build.gradle
+```shell
+dependencies {
+  compile 'kevenchen.net:webimageview:1.0.1'
+}
+```
 Then import WebImageView to you project
 ```shell
-import keven_chen.webimageviewlib.WebImageView;
+import kevenchen.utils.WebImageView;
 ```
 For more detail of usage, see example.
 

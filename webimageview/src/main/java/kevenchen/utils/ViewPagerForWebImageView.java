@@ -1,4 +1,4 @@
-package keven_chen.webimageviewlib;
+package kevenchen.utils;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

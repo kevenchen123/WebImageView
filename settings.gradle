@@ -1,1 +1,1 @@
-include ':example', ':webimageviewlib'
+include ':example', ':webimageview'

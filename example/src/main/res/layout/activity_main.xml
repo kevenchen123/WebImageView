@@ -3,10 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="keven_chen.webimageview.MainActivity">
+    android:layout_height="match_parent">
 
-  <keven_chen.webimageviewlib.ViewPagerForWebImageView
+  <kevenchen.utils.ViewPagerForWebImageView
       android:id="@+id/view_pager"
       android:layout_width="match_parent"
       android:layout_height="match_parent">
@@ -17,6 +16,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top"/>
 
-  </keven_chen.webimageviewlib.ViewPagerForWebImageView>
+  </kevenchen.utils.ViewPagerForWebImageView>
 
 </android.support.constraint.ConstraintLayout>

@@ -1,4 +1,4 @@
-package keven_chen.webimageview;
+package kevenchen.sample.webimageview;
 
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.PagerTabStrip;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import keven_chen.webimageviewlib.WebImageView;
+import kevenchen.utils.WebImageView;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         mAdapter = new SamplePagerAdapter();
         mViewPager = (ViewPager) findViewById(R.id.view_pager);
         mViewPager.setAdapter(mAdapter);
-        mViewPager.setOffscreenPageLimit(6); // how many images to load into memory, set 1 to avoid out of memory
+        mViewPager.setOffscreenPageLimit(7); // how many images to load into memory, set 1 to avoid out of memory
     }
 
     private class SamplePagerAdapter extends PagerAdapter {
